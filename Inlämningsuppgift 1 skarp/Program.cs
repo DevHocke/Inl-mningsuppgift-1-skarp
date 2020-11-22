@@ -37,26 +37,133 @@ namespace Inlämningsuppgift_1_skarp
                 {
                     if (two == '+')
                     {
+                        result = termOne + termTwo + termThree;
+                        Console.WriteLine(termOne + " + " + termTwo + " + " + termThree + " = " + result);
+                        System.Threading.Thread.Sleep(1800);
+                        Console.Clear();
+                    }
+                    else if (two == '-')
+                    {
+                        result = termOne + termTwo - termThree;
+                        Console.WriteLine(termOne + " + " + termTwo + " - " + termThree + " = " + result);
+                        System.Threading.Thread.Sleep(1800);
+                        Console.Clear();
+                    }
+                    else if (two == '*')
+                    {
+                        result = termOne + termTwo * termThree;
+                        Console.WriteLine(termOne + " + " + termTwo + " * " + termThree + " = " + result);
+                        System.Threading.Thread.Sleep(1800);
+                        Console.Clear();
+                    }
+                    else if (two == '/')
+                    {
+                        result = termOne + termTwo / termThree;
+                        Console.WriteLine(termOne + " + " + termTwo + " / " + termThree + " = " + result);
+                        System.Threading.Thread.Sleep(1800);
+                        Console.Clear();
+                    }
+                    
+                }
+                else if (one == '-')
+                {
+                    if (two == '+')
+                    {
+                        result = termOne - termTwo + termThree;
+                        Console.WriteLine(termOne + " - " + termTwo + " + " + termThree + " = " + result);
+                        System.Threading.Thread.Sleep(1800);
+                        Console.Clear();
+                    }
+                    else if (two == '-')
+                    {
+                        result = termOne - termTwo - termThree;
+                        Console.WriteLine(termOne + " - " + termTwo + " - " + termThree + " = " + result);
                         
-                        Console.WriteLine("Control if + and + are operators"); // Function test.
-                        if (result > 100)
-                        {
-                            Console.WriteLine("More then 100");
-                            Console.WriteLine("Do you want another try? ");
-                        }
-                        else if (result == 100)
-                        {
-                            Console.WriteLine("Cool, now you have a hundred, clap clap");
-                            Console.WriteLine("Do you want another try? ");
-                        }
-                        else if (result < 100)
-                        {
-                            Console.WriteLine("Less then a hundred");
-                            Console.WriteLine("Do you want another try? ");
-                        }
+                    }
+                    else if (two == '*')
+                    {
+                        result = termOne - termTwo * termThree;
+                        Console.WriteLine(termOne + " - " + termTwo + " * " + termThree + " = " + result);
+                        
+                    }
+                    else if (two == '/')
+                    {
+                        result = termOne - termTwo / termThree;
+                        Console.WriteLine(termOne + " - " + termTwo + " / " + termThree + " = " + result);
                         
                     }
                     
+                }
+                else if (one == '*')
+                {
+                    if (two == '+')
+                    {
+                        result = termOne * termTwo + termThree;
+                        Console.WriteLine(termOne + " * " + termTwo + " + " + termThree + " = " + result);
+                        
+                    }
+                    else if (two == '-')
+                    {
+                        result = termOne * termTwo - termThree;
+                        Console.WriteLine(termOne + " * " + termTwo + " - " + termThree + " = " + result);
+                        
+                    }
+                    else if (two == '*')
+                    {
+                        result = termOne * termTwo * termThree;
+                        Console.WriteLine(termOne + " * " + termTwo + " * " + termThree + " = " + result);
+                        
+                    }
+                    else if (two == '/')
+                    {
+                        result = termOne * termTwo / termThree;
+                        Console.WriteLine(termOne + " * " + termTwo + " / " + termThree + " = " + result);
+                        
+                    }
+                    
+                }
+                else if (one == '/')
+                {
+                    if (two == '+')
+                    {
+                        result = termOne / termTwo + termThree;
+                        Console.WriteLine(termOne + " / " + termTwo + " + " + termThree + " = " + result);
+                        
+                    }
+                    else if (two == '-')
+                    {
+                        result = termOne / termTwo - termThree;
+                        Console.WriteLine(termOne + " / " + termTwo + " - " + termThree + " = " + result);
+                        
+                    }
+                    else if (two == '*')
+                    {
+                        result = termOne / termTwo * termThree;
+                        Console.WriteLine(termOne + " / " + termTwo + " * " + termThree + " = " + result);
+                        
+                    }
+                    else if (two == '/')
+                    {
+                        result = termOne / termTwo / termThree;
+                        Console.WriteLine(termOne + " / " + termTwo + " / " + termThree + " = " + result);
+                        
+                    }
+
+                }
+                if (result > 100)
+                {
+                    Console.WriteLine("More then 100");
+                    Console.WriteLine("Do you want another try? ");
+                }
+                else if (result == 100)
+                {
+                    Console.WriteLine("Cool, now you have a hundred, clap clap");
+                    Console.WriteLine("Do you want another try? ");
+                }
+                else if (result < 100)
+                {
+                    Console.WriteLine("Less then a hundred");
+                    Console.WriteLine("Do you want another try? ");
                 }
 
             } while (keepGoing == true);
