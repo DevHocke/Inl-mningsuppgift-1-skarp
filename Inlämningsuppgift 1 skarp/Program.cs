@@ -6,7 +6,22 @@ namespace Inlämningsuppgift_1_skarp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Title = "Campus Mölndal";
+            Console.WriteLine("Enter first operator: ");
+            string operatorOne = Console.ReadLine();
+            char one = Convert.ToChar(operatorOne);
+            Console.WriteLine("Enter second operator: ");
+            string operatorTwo = Console.ReadLine();
+            char two = Convert.ToChar(operatorTwo);
+
+
+
+
+
+
+
+
+            Console.ReadLine();
         }
     }
 }
