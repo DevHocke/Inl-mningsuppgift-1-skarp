@@ -9,7 +9,7 @@ namespace Inlämningsuppgift_1_skarp
         {
             Console.Title = "Campus Mölndal";
             
-            List<int> changes = new List<int>();
+            List<double> changes = new List<double>();
             bool keepGoing = false;
             double result = 0;
 
@@ -38,6 +38,7 @@ namespace Inlämningsuppgift_1_skarp
                     if (two == '+')
                     {
                         result = termOne + termTwo + termThree;
+                        changes.Add(result);
                         Console.WriteLine(termOne + " + " + termTwo + " + " + termThree + " = " + result);
                         System.Threading.Thread.Sleep(1800);
                         Console.Clear();
@@ -45,6 +46,7 @@ namespace Inlämningsuppgift_1_skarp
                     else if (two == '-')
                     {
                         result = termOne + termTwo - termThree;
+                        changes.Add(result);
                         Console.WriteLine(termOne + " + " + termTwo + " - " + termThree + " = " + result);
                         System.Threading.Thread.Sleep(1800);
                         Console.Clear();
@@ -52,6 +54,7 @@ namespace Inlämningsuppgift_1_skarp
                     else if (two == '*')
                     {
                         result = termOne + termTwo * termThree;
+                        changes.Add(result);
                         Console.WriteLine(termOne + " + " + termTwo + " * " + termThree + " = " + result);
                         System.Threading.Thread.Sleep(1800);
                         Console.Clear();
@@ -59,6 +62,7 @@ namespace Inlämningsuppgift_1_skarp
                     else if (two == '/')
                     {
                         result = termOne + termTwo / termThree;
+                        changes.Add(result);
                         Console.WriteLine(termOne + " + " + termTwo + " / " + termThree + " = " + result);
                         System.Threading.Thread.Sleep(1800);
                         Console.Clear();
@@ -70,6 +74,7 @@ namespace Inlämningsuppgift_1_skarp
                     if (two == '+')
                     {
                         result = termOne - termTwo + termThree;
+                        changes.Add(result);
                         Console.WriteLine(termOne + " - " + termTwo + " + " + termThree + " = " + result);
                         System.Threading.Thread.Sleep(1800);
                         Console.Clear();
@@ -77,20 +82,26 @@ namespace Inlämningsuppgift_1_skarp
                     else if (two == '-')
                     {
                         result = termOne - termTwo - termThree;
+                        changes.Add(result);
                         Console.WriteLine(termOne + " - " + termTwo + " - " + termThree + " = " + result);
-                        
+                        System.Threading.Thread.Sleep(1800);
+                        Console.Clear();
                     }
                     else if (two == '*')
                     {
                         result = termOne - termTwo * termThree;
+                        changes.Add(result);
                         Console.WriteLine(termOne + " - " + termTwo + " * " + termThree + " = " + result);
-                        
+                        System.Threading.Thread.Sleep(1800);
+                        Console.Clear();
                     }
                     else if (two == '/')
                     {
                         result = termOne - termTwo / termThree;
+                        changes.Add(result);
                         Console.WriteLine(termOne + " - " + termTwo + " / " + termThree + " = " + result);
-                        
+                        System.Threading.Thread.Sleep(1800);
+                        Console.Clear();
                     }
                     
                 }
@@ -99,26 +110,33 @@ namespace Inlämningsuppgift_1_skarp
                     if (two == '+')
                     {
                         result = termOne * termTwo + termThree;
+                        changes.Add(result);
                         Console.WriteLine(termOne + " * " + termTwo + " + " + termThree + " = " + result);
-                        
+                        System.Threading.Thread.Sleep(1800);
+                        Console.Clear();
                     }
                     else if (two == '-')
                     {
                         result = termOne * termTwo - termThree;
+                        changes.Add(result);
                         Console.WriteLine(termOne + " * " + termTwo + " - " + termThree + " = " + result);
-                        
+                        System.Threading.Thread.Sleep(1800);
+                        Console.Clear();
                     }
                     else if (two == '*')
                     {
                         result = termOne * termTwo * termThree;
+                        changes.Add(result);
                         Console.WriteLine(termOne + " * " + termTwo + " * " + termThree + " = " + result);
-                        
+                        System.Threading.Thread.Sleep(1800);
+                        Console.Clear();
                     }
                     else if (two == '/')
                     {
                         result = termOne * termTwo / termThree;
                         Console.WriteLine(termOne + " * " + termTwo + " / " + termThree + " = " + result);
-                        
+                        System.Threading.Thread.Sleep(1800);
+                        Console.Clear();
                     }
                     
                 }
@@ -127,26 +145,34 @@ namespace Inlämningsuppgift_1_skarp
                     if (two == '+')
                     {
                         result = termOne / termTwo + termThree;
+                        changes.Add(result);
                         Console.WriteLine(termOne + " / " + termTwo + " + " + termThree + " = " + result);
-                        
+                        System.Threading.Thread.Sleep(1800);
+                        Console.Clear();
                     }
                     else if (two == '-')
                     {
                         result = termOne / termTwo - termThree;
+                        changes.Add(result);
                         Console.WriteLine(termOne + " / " + termTwo + " - " + termThree + " = " + result);
-                        
+                        System.Threading.Thread.Sleep(1800);
+                        Console.Clear();
                     }
                     else if (two == '*')
                     {
                         result = termOne / termTwo * termThree;
+                        changes.Add(result);
                         Console.WriteLine(termOne + " / " + termTwo + " * " + termThree + " = " + result);
-                        
+                        System.Threading.Thread.Sleep(1800);
+                        Console.Clear();
                     }
                     else if (two == '/')
                     {
                         result = termOne / termTwo / termThree;
+                        changes.Add(result);
                         Console.WriteLine(termOne + " / " + termTwo + " / " + termThree + " = " + result);
-                        
+                        System.Threading.Thread.Sleep(1800);
+                        Console.Clear();
                     }
 
                 }
